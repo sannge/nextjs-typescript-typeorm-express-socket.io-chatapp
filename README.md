@@ -1,6 +1,6 @@
-#NextJS-Typescript-TailwindCSS-ChakraUI-TypeORM-Express-Redux-Socket.io-ChatApp
+# NextJS-Typescript-TailwindCSS-ChakraUI-TypeORM-Express-Redux-Socket.io-ChatApp
 
-##App Functionalities
+## App Functionalities
 
 - The app allows users to sign up, login, and change the password if it was forgotten.
 - Users can create chatrooms and view all the chatrooms that are available to join.
@@ -9,7 +9,7 @@
 - Users can link urls.
 - Link previews are available.
 
-##Set Up
+## Setting Up the Application
 
 - Make sure Node.JS and Postgres(psql, link: https://blog.timescale.com/tutorials/how-to-install-psql-on-mac-ubuntu-debian-windows/) installed globally in the local machine.
 - create the database in your local machine (if you would not like to change the existing database_name, create database name **chatapp** by using following command ). Since you have installed psql in the local machine, in a open terminal run **psql**, and then, you will be able to execute SQL queries. Now, run **CREATE DATABASE chatapp;**.
