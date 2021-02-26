@@ -9,6 +9,16 @@
 - Users can link urls.
 - Link previews are available.
 
+## Things that could be improved
+
+- Add typing indicator
+- Store messages in Postgres
+- Implement push notifications
+- Enable binary file upload with s3/gcp
+- Add emojis
+- Add chatroom managements by host
+- Add roles into chatroom
+
 ## Setting Up the Application
 
 - I have included the .env files for your convenience.
