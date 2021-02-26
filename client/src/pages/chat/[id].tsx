@@ -8,6 +8,7 @@ import ActiveUsers from "../../Components/App/Chatroom/ActiveUsers";
 import MessageSection from "../../Components/App/Chatroom/MessageSection/MessageSection";
 import { Socket } from "socket.io-client";
 import { setMessages } from "../../redux/actions";
+import Head from "next/head";
 
 let socket: typeof Socket;
 
@@ -88,6 +89,21 @@ const GroupChat: React.FC = () => {
 
 	return (
 		<>
+			<Head>
+				<title>{`${router.query.name}, Real time Chatroom`}</title>
+				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
+				<meta
+					property='og:title'
+					content={`${router.query.name}, Real time Chatroom`}
+					key='title'
+				/>
+				<meta
+					name='keywords'
+					content='Next.JS, Typescript, Redux, Typeorm, Socket.io, Express, ChakraUI, Tailwind-CSS, Chat-App'></meta>
+				<meta
+					name='description'
+					content='This is the chatroom for made in PENN stack with socket.io, redux, tailwind-css, and chakraui.'></meta>
+			</Head>
 			{err ? (
 				<Box w='100%' margin='auto' mt={16} maxW='620px' paddingX={10} pb={4}>
 					{isOpen && (
