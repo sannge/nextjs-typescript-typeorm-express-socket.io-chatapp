@@ -11,6 +11,7 @@
 
 ## Setting Up the Application
 
+- I have included the .env files for your convenience.
 - Make sure Node.JS and Postgres(psql, link: https://blog.timescale.com/tutorials/how-to-install-psql-on-mac-ubuntu-debian-windows/) installed globally in the local machine.
 - create the database in your local machine (if you would not like to change the existing database_name, create database name **chatapp** by using following command ). Since you have installed psql in the local machine, in a open terminal run **psql**, and then, you will be able to execute SQL queries. Now, run **CREATE DATABASE chatapp;**.
 - Goback to root directory. From root directory(TruckMap_ChatApp), go into /client. Then, **yarn** or **npm install**
@@ -19,4 +20,4 @@
   **Npm run typeorm migration:run**
 - Now, eveything is ready. In /server, run **yarn dev or npm run dev**, and then go back to root dir, and /client, **yarn dev or npm run**.
 - Go to localhost:3000 in your browser.
-  -Happy Browsing!
+- Happy Hacking!
